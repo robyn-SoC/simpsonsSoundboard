@@ -92,8 +92,6 @@
     ></audio>
 
     <script>
-      let playing = false;
-
       function playSound(event) {
         let audio = document.querySelector(`audio[data-key="${event.keyCode}"`);
         let key = document.querySelector(`.key[data-key="${event.keyCode}"`);
